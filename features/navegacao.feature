@@ -8,11 +8,6 @@ Funcionalidade: Efetuar venda
     Contexto: Home Produtos
         Dado que eu esteja na pagina de Produtos
 
-    # @login
-    # Cenário: Validar as rotas
-    #     Quando eu clicar nos botões da tela
-    #     Então devo ser direcionado para as rotas corretas
-
     @1scenario @login
     Cenário: Validar acesso ao Menu Administrador
         Quando eu clicar no botão Menu Administrador

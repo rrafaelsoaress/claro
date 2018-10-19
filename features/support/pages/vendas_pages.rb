@@ -10,7 +10,9 @@ class VendasPage < SitePrism::Page
         campo_msisdn.set '11990234118'
         btn_avancar.click
         sleep 1
+        campo_cpf.click
         campo_email.set 'teste@getnada.com'
+        campo_cpf.click
         campo_cpf.set '37265171705'
         btn_confirmar.click
     end
@@ -20,6 +22,7 @@ class VendasPage < SitePrism::Page
         btn_avancar.click
         sleep 1
         campo_email.set ''
+        campo_cpf.click
         campo_cpf.set '37265171705'
         sleep 5
         btn_confirmar.click
@@ -29,6 +32,7 @@ class VendasPage < SitePrism::Page
         campo_msisdn.set '11990234118'
         btn_avancar.click
         sleep 1
+        campo_email.click
         campo_email.set 'teste@getnada.com'
         campo_cpf.set ''
         btn_confirmar.click

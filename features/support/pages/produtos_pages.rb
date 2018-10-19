@@ -14,6 +14,6 @@ class ProdutosPage < SitePrism::Page
     element :btn_sm500, 'a[data-target*="500gb"]'
     element :btn_sm150, 'a[data-target*="150gb"]'
     element :btn_fechar, '.close'
-    element :popup_sucesso, '.swal2-modal swal2-show'
+    element :popup_sucesso, '.swal2-modal'
     element :btn_ok, '.swal2-confirm'    
 end

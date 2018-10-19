@@ -1,22 +1,3 @@
-# Quando("eu clicar nos botões da tela") do
-#   all('a[href*="adm"]').first.click
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/administradores/menu")
-#   @produtos_page.btn_perfil.click
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/perfil")  
-#   @produtos_page.btn_loja.click
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/lojas/1842")  
-#   @produtos_page.btn_nvendas.click
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/produtos") 
-#   @produtos_page.btn_ccliente.click 
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/clientes")
-#   @produtos_page.btn_faq.click
-#   expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/perguntas-frequentes")  
-# end
-  
-# Então("devo ser direcionado para as rotas corretas") do
-    
-# end
-
 #1scenario
 Quando("eu clicar no botão Menu Administrador") do
     all('a[href*="adm"]').first.click    
