@@ -2,7 +2,7 @@
 @1feature
 Funcionalidade: Efetuar login
     Como usuario do Claro Vendas
-	Quero acessar o site
+    Quero acessar o site
 
         Contexto: Home
             Dado que eu acessei o sistema

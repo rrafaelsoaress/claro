@@ -27,6 +27,13 @@ Então("finalizo a venda sem preencher o e-mail") do
 end
 
 #5scenario
+Então("finalizo a venda sem preencher o cpf") do
+    @vendas_page.cadastro_sem_cpf
+    @produtos_page.wait_for_popup_sucesso
+    @produtos_page.btn_ok.click
+end
+
+#7scenario
 Quando("clicar no botão Avançar") do
     @vendas_page.btn_avancar.click
 end
@@ -36,7 +43,7 @@ Então("valido a mensagem de erro") do
 end
 
 
-#7scenario
+#9scenario
 Quando("eu clicar no botão Saiba Mais do Hero 500GB") do
     @produtos_page.btn_sm500.click
 end
@@ -50,7 +57,7 @@ Então("valido o texto do Hero 500GB") do
     @produtos_page.btn_fechar.click
 end
 
-#8scenario
+#10scenario
 Quando("eu clicar no botão Saiba Mais do Hero 150GB") do
     @produtos_page.btn_sm150.click
 end
