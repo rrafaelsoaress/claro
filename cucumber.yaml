@@ -5,4 +5,4 @@ dot: --format progress
 prod: ENV_TYPE=prod
 chrome: BROWSER=chrome
 firefox: BROWSER=firefox
-html: --format html --out log/reports/.html
+html: --format html --out log/reports/claro_vendas.html
