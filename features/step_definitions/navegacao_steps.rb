@@ -5,6 +5,7 @@ end
   
 Então("devo ser direcionado para o Menu Administrador") do
     expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/administradores/menu")
+    sleep 0.5
 end
 
 #2scenario
@@ -13,7 +14,8 @@ Quando("eu clicar no botão do Perfil") do
 end
   
 Então("devo ser direcionado para o Perfil") do
-    expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/perfil")    
+    expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/perfil")
+    sleep 0.5
 end
 
 #3scenario
@@ -23,6 +25,7 @@ end
   
 Então("devo ser direcionado para a Loja") do
     expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/lojas/1842")  
+    sleep 0.5
 end
 
 #4scenario
@@ -32,6 +35,7 @@ end
   
 Então("devo ser direcionado para a home de Produtos") do
     expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/produtos") 
+    sleep 0.5
 end
 
 #5scenario
@@ -41,6 +45,7 @@ end
   
 Então("devo ser direcionado para a home de Clientes") do
     expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/clientes")
+    sleep 0.5
 end
 
 #6scenario
@@ -50,4 +55,5 @@ end
   
 Então("devo ser direcionado para a home de Perguntas Frequentes") do
     expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/perguntas-frequentes")  
+    sleep 0.5
 end

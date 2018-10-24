@@ -1,5 +1,5 @@
 #language: pt
-@1feature
+@1feature @evidencia
 Funcionalidade: Efetuar login
     Como usuario do Claro Vendas
     Quero acessar o site
