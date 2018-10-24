@@ -9,7 +9,7 @@ Funcionalidade: Efetuar login
 
         @1scenario @logout
         Cenário: Login
-        Quando faço login com "fsadmin" e "Fsas@2018Claro"
+        Quando faço login com "fsadmin" e "Fsas123@"
         Então sou direcionado para a home do site 
                
         @2scenario

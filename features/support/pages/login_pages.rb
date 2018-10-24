@@ -1,5 +1,5 @@
 class LoginPage < SitePrism::Page
-    set_url '/'
+    set_url 'https://claro-vendas.whitelabel.com.br'
     element :campo_matricula, '#email_user_code'
     element :campo_senha, '#password'
     element :btn_entrar, '.btn'

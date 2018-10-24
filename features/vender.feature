@@ -3,7 +3,7 @@
 Funcionalidade: Efetuar venda
     Como usuario do Claro Vendas
     Quero efetuar uma venda
-
+    
     Contexto: Home Produtos
         Dado que eu esteja na pagina de Produtos
 

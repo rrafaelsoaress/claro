@@ -1,0 +1,8 @@
+default: --no-source --color -p bdd -p prod -p firefox -p html
+bdd: --format pretty
+dot: --format progress
+# homol: ENV_TYPE=homol
+prod: ENV_TYPE=prod
+chrome: BROWSER=chrome
+firefox: BROWSER=firefox
+html: --format html --out=log/report.html
