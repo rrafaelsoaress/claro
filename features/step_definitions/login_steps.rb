@@ -9,7 +9,7 @@ Quando("faço login com {string} e {string}") do |matricula,senha|
 end
    
 Então("sou direcionado para a home do site") do
-    expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/produtos")
+    expect(current_url).to eq("")
 end
 
 #2scenario
