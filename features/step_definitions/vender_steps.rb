@@ -1,6 +1,6 @@
 #contexto
 Dado("que eu esteja na pagina de Produtos") do
-    expect(current_url).to eq("https://claro-vendas.whitelabel.com.br/produtos")
+    expect(current_url).to eq("/produtos")
 end
 
 #1scenario
