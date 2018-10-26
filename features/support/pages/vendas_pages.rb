@@ -7,7 +7,7 @@ class VendasPage < SitePrism::Page
     element :btn_cancelar, '#sale-cancel'
 
     def cadastro_completo
-        campo_msisdn.set '11990234118'
+        campo_msisdn.set ''
         btn_avancar.click
         sleep 1
         campo_cpf.click
@@ -18,7 +18,7 @@ class VendasPage < SitePrism::Page
     end
 
     def cadastro_sem_email
-        campo_msisdn.set '11990234118'
+        campo_msisdn.set ''
         btn_avancar.click
         sleep 1
         campo_email.set ''
@@ -29,7 +29,7 @@ class VendasPage < SitePrism::Page
     end
 
     def cadastro_sem_cpf
-        campo_msisdn.set '11990234118'
+        campo_msisdn.set ''
         btn_avancar.click
         sleep 1
         campo_email.click
