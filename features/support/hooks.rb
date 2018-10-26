@@ -7,7 +7,7 @@ end
 
 Before('@login') do
     @login_page.load
-    @login_page.logar('fsadmin', 'Fsas123@')
+    @login_page.logar('', '')
 end
 
 After('@logout') do 
